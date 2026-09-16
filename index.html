@@ -21,6 +21,24 @@
     </script>
     <script type="module" crossorigin src="./aset/index-Dfd87oCt.js"></script>
     <link rel="stylesheet" crossorigin href="./aset/index-Cp1H8Xmf.css">
+    <style>
+div:has(> svg.h-5.w-5.text-white) {
+  position: relative;
+}
+
+div:has(> svg.h-5.w-5.text-white) > svg {
+  display: none !important;
+}
+
+div:has(> svg.h-5.w-5.text-white)::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("/ikon-192.png") center / contain no-repeat;
+  pointer-events: none;
+}
+</style>
   </head>
   <body>
     <div id="root"></div>
