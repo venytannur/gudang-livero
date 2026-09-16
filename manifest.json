@@ -1,0 +1,14 @@
+{
+  "name": "Buku Gudang Hotel",
+  "short_name": "Gudang",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#16202B",
+  "theme_color": "#16202B",
+  "icons": [
+    { "src": "./ikon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./ikon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
